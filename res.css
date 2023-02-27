@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(rgb(90, 87, 87),rgb(112, 101, 101));
+}
+.first{
+    background-image: url('../img/food.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    min-width: 120px; 
+}
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:1em;
+    padding:1em;
+}
+
+#logo{
+    flex:3;
+    font-size:1.25em;
+    font-weight: bolder;
+    min-width:260px;
+    background-image: url('../img/logo1.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    font-size: 50px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+nav{
+    flex:3;
+    display:flex;
+    align-items: center;
+    color: yellow;
+    font-size: 25px;
+}   
+
+nav a{
+    flex:2;
+}
+h2{
+    color: rgb(223, 63, 63);
+    font-size: 50px;
+}
+label{
+    font-size: 50px;
+    color: rgb(255, 255, 0);
+}
+button{
+    padding: 10px;
+    margin: 50px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+    color: white;
+    cursor: pointer;
+}
+#menu{
+    text-align: center;
+    justify-content: center;
+}
+table{
+    width:100%;
+    padding:1em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#location{
+    text-align: center;
+    justify-content: center;
+}
+#copyright{
+    margin-left: 20px;
+}
+.social ul{
+  display: flex;
+  padding: 0px;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.social ul li .fab{
+    font-size: 30px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+.social ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social ul li a:hover{
+    transform: translate(0, -10%);
+}
+.social ul li:nth-child(1) a:hover{
+    background-color: #0165E1;
+}
+.social ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social ul li:nth-child(3) a:hover{
+    background-color: #00ACEE;
+}
